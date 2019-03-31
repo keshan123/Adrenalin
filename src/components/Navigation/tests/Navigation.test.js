@@ -11,4 +11,4 @@ test('Navigation renders', () => {
     </BrowserRouter>
   ).toJSON()
   expect(tree).toMatchSnapshot()
-})
+});

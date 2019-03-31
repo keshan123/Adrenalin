@@ -22,7 +22,7 @@ class DetailsPage extends Component {
     questions: [],
     tag: '',
     image: '',
-  }
+  };
 
   componentDidMount() {
     const isFound = (casestudy) => {
@@ -36,7 +36,7 @@ class DetailsPage extends Component {
       }
     }
     data.find(isFound)
-  }
+  };
 
   render() {
     const { image, title, questions } = this.state;
@@ -76,7 +76,7 @@ class DetailsPage extends Component {
         </PageContainer>
       </Switch>
     );
-  }
+  };
 }
 
 export default DetailsPage;

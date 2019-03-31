@@ -18,7 +18,7 @@ class App extends Component {
         </Fragment>
       </Switch>
     );
-  }
+  };
 }
 
 export default App;

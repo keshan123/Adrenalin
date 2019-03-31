@@ -13,25 +13,25 @@ test('NavigationContainer renders', () => {
       <NavigationContainer/>
   ).toJSON()
   expect(tree).toMatchSnapshot()
-})
+});
 
 test('LogoContainer renders', () => {
   const tree = renderer.create(
       <LogoContainer/>
   ).toJSON()
   expect(tree).toMatchSnapshot()
-})
+});
 
 test('NavigationOptionsContainer renders', () => {
   const tree = renderer.create(
       <NavigationOptionsContainer/>
   ).toJSON()
   expect(tree).toMatchSnapshot()
-})
+});
 
 test('NavigationItem renders', () => {
   const tree = renderer.create(
       <NavigationItem/>
   ).toJSON()
   expect(tree).toMatchSnapshot()
-})
+});
