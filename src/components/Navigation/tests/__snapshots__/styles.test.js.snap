@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoContainer renders 1`] = `
+.c0 {
+  background-image: url('require(../assets/adrenalin.svg'));
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`NavigationContainer renders 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 43px;
+  padding: 0 93px;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 0 55px;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`NavigationItem renders 1`] = `
+.c0 {
+  color: #000000;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 13px;
+  font-weight: regular;
+  margin-left: 5px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`NavigationOptionsContainer renders 1`] = `
+.c0 {
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ArialMT;
+  font-size: 13px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  width: 436px;
+}
+
+<div
+  className="c0"
+/>
+`;
