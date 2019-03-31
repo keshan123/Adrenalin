@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { Switch, Link } from 'react-router-dom'
+
 import {
   PageContainer,
   PreviewTile,
   PreviewTileContainer,
   TileImage,
   TileDescription,
-  ViewCaseStudy,
+  ViewCaseStudyLink,
   ImageTag,
-} from '../styles';
+} from './styles';
 
-let data = require('../feed/data.json');
+let data = require('../../feed/data.json');
 
 const ViewCaseSVG = () => (
   <svg width="172px" height="11px" viewBox="0 0 172 11" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -47,16 +48,16 @@ class ListingPage extends Component {
                     {caseStudy.tag}
                   </ImageTag>
                   <TileImage
-                    image={require(`../assets/${caseStudy.thumb}`)}
+                    image={require(`../../assets/${caseStudy.thumb}`)}
                   />
                   <TileDescription>
                     {caseStudy.title_long}
                   </TileDescription>
-                  <ViewCaseStudy>
+                  <ViewCaseStudyLink>
                     <Link to={`/case-study/${caseStudy.id}`}>
                       <ViewCaseSVG />
                     </Link>
-                   </ViewCaseStudy>
+                   </ViewCaseStudyLink>
                 </PreviewTile>
                 )
               }

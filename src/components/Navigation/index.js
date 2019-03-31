@@ -1,11 +1,12 @@
 import React from 'react';
 import { Switch, Link } from 'react-router-dom'
+
 import {
   NavigationContainer,
   LogoContainer,
   NavigationOptionsContainer,
   NavigationItem,
-} from '../styles';
+} from './styles';
 
 const Logo = () => (
   <svg width="100px" height="17px" viewBox="0 0 100 17" version="1.1" xmlns="http://www.w3.org/2000/svg">

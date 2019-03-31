@@ -12,9 +12,9 @@ import {
   DetailsQuestionsBody,
   DetailsTagContainer,
   DetailsImageTag,
-} from '../styles';
+} from './styles';
 
-let data = require('../feed/data.json');
+let data = require('../../feed/data.json');
 
 class DetailsPage extends Component {
   state = {
@@ -23,6 +23,7 @@ class DetailsPage extends Component {
     tag: '',
     image: '',
   }
+
   componentDidMount() {
     const isFound = (casestudy) => {
       if (casestudy.id.toString() === this.props.match.params.id) {
@@ -36,28 +37,30 @@ class DetailsPage extends Component {
     }
     data.find(isFound)
   }
+
   render() {
+    const { image, title, questions } = this.state;
     return (
       <Switch>
         <PageContainer>
           <DetailsContainer>
             {
-              this.state.image &&
+              image &&
               <DetailsTagContainer>
                 <DetailsImageTag>
                  {this.state.tag}
                 </DetailsImageTag>
                 <DetailsImage
-                  image={require(`../assets/${this.state.image}`)}
+                  image={require(`../../assets/${image}`)}
                 />
               </DetailsTagContainer>
             }
             <DetailsInfo>
               <DetailsTitle>
-                {this.state.title}
+                {title}
               </DetailsTitle>
               {
-                this.state.questions.map((caseStudy, index) =>
+                questions.map((caseStudy, index) =>
                 <DetailsQuestionsContainer key={index}>
                   <DetailsQuestionsTitle>
                     Question {index + 1}
