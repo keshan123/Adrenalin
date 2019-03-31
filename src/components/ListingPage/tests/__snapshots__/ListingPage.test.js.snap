@@ -1,0 +1,558 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingPage renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  color: #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 517px;
+  position: relative;
+  width: calc(50% - 16.5px);
+}
+
+.c2:nth-child(even) {
+  margin-left: 33px;
+}
+
+.c2:nth-child(-n+2) {
+  margin-bottom: 36px;
+}
+
+.c2:nth-last-of-type(-n+2) {
+  margin-top: 36px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  left: 0;
+  margin-top: 63px;
+  padding: 0 93px;
+  top: 0;
+}
+
+.c4 {
+  background-image: url(1001_thumb.jpg);
+  background-size: cover;
+  height: 384px;
+}
+
+.c7 {
+  background-image: url(1002_thumb.jpg);
+  background-size: cover;
+  height: 384px;
+}
+
+.c8 {
+  background-image: url(1003_thumb.jpg);
+  background-size: cover;
+  height: 384px;
+}
+
+.c9 {
+  background-image: url(1004_thumb.jpg);
+  background-size: cover;
+  height: 384px;
+}
+
+.c5 {
+  color: #1A1A1A;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  height: 64px;
+  margin-top: 24px;
+  text-align: left;
+  width: 80%;
+}
+
+.c6 {
+  color: blue;
+  font-size: 12px;
+  height: 13px;
+  margin-top: 32px;
+}
+
+.c3 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background-color: #F5F5F5;
+  box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.3);
+  color: rgba(0,0,0,0.75);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  height: 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  margin-left: -37px;
+  margin-top: 37px;
+  position: absolute;
+  top: 0;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  width: 98px;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    width: 100%;
+  }
+
+  .c2:nth-child(even) {
+    margin-left: 0px;
+    margin-bottom: 36px;
+  }
+
+  .c2:nth-child(odd) {
+    margin-left: 0px;
+    margin-bottom: 36px;
+  }
+
+  .c2:nth-last-of-type(-n+2) {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 45px;
+  }
+}
+
+@media (max-width:1024px) {
+  .c5 {
+    height: 114px;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    height: 64px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        Toga Group
+      </div>
+      <div
+        className="c4"
+      />
+      <div
+        className="c5"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero id auctor.
+      </div>
+      <div
+        className="c6"
+      >
+        <a
+          href="/case-study/1001"
+          onClick={[Function]}
+        >
+          <svg
+            height="11px"
+            version="1.1"
+            viewBox="0 0 172 11"
+            width="172px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              id="Pages"
+              stroke="none"
+              strokeWidth="1"
+            >
+              <g
+                id="Listing-Page"
+                transform="translate(-809.000000, -625.000000)"
+              >
+                <rect
+                  fill="#F5F5F5"
+                  height="1420"
+                  width="1584"
+                  x="0"
+                  y="0"
+                />
+                <g
+                  fill="#3852F7"
+                  id="Component-/-Tiles-/-Desktop-/-4:3-"
+                  transform="translate(808.000000, 120.000000)"
+                >
+                  <g
+                    id="CTA-/-Desktop-/-Blue-/-Secondary"
+                    transform="translate(1.000000, 504.000000)"
+                  >
+                    <text
+                      fontFamily="Arial-BoldMT, Arial"
+                      fontSize="13"
+                      fontWeight="bold"
+                      id="Secondary-Button"
+                      letterSpacing="0.189999998"
+                      linespacing="13"
+                      transform="translate(110.000000, 6.500000) rotate(-360.000000) translate(-110.000000, -6.500000) "
+                    >
+                      <tspan
+                        x="48"
+                        y="12"
+                      >
+                        VIEW CASE STUDY
+                      </tspan>
+                    </text>
+                    <g
+                      fillRule="evenodd"
+                      id="Colour/Interactive/1.-Electric-Blue"
+                      transform="translate(0.000000, 6.000000)"
+                    >
+                      <rect
+                        height="2"
+                        id="Colour/Neutral/1.-Black"
+                        width="32"
+                        x="0"
+                        y="0"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        Hungry Jacks
+      </div>
+      <div
+        className="c7"
+      />
+      <div
+        className="c5"
+      >
+        Aenean vulputate augue sed lorem ultricies, a placerat mi dictum
+      </div>
+      <div
+        className="c6"
+      >
+        <a
+          href="/case-study/1002"
+          onClick={[Function]}
+        >
+          <svg
+            height="11px"
+            version="1.1"
+            viewBox="0 0 172 11"
+            width="172px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              id="Pages"
+              stroke="none"
+              strokeWidth="1"
+            >
+              <g
+                id="Listing-Page"
+                transform="translate(-809.000000, -625.000000)"
+              >
+                <rect
+                  fill="#F5F5F5"
+                  height="1420"
+                  width="1584"
+                  x="0"
+                  y="0"
+                />
+                <g
+                  fill="#3852F7"
+                  id="Component-/-Tiles-/-Desktop-/-4:3-"
+                  transform="translate(808.000000, 120.000000)"
+                >
+                  <g
+                    id="CTA-/-Desktop-/-Blue-/-Secondary"
+                    transform="translate(1.000000, 504.000000)"
+                  >
+                    <text
+                      fontFamily="Arial-BoldMT, Arial"
+                      fontSize="13"
+                      fontWeight="bold"
+                      id="Secondary-Button"
+                      letterSpacing="0.189999998"
+                      linespacing="13"
+                      transform="translate(110.000000, 6.500000) rotate(-360.000000) translate(-110.000000, -6.500000) "
+                    >
+                      <tspan
+                        x="48"
+                        y="12"
+                      >
+                        VIEW CASE STUDY
+                      </tspan>
+                    </text>
+                    <g
+                      fillRule="evenodd"
+                      id="Colour/Interactive/1.-Electric-Blue"
+                      transform="translate(0.000000, 6.000000)"
+                    >
+                      <rect
+                        height="2"
+                        id="Colour/Neutral/1.-Black"
+                        width="32"
+                        x="0"
+                        y="0"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        UNSW
+      </div>
+      <div
+        className="c8"
+      />
+      <div
+        className="c5"
+      >
+        Nulla non ante ultrices, blandit velit non
+      </div>
+      <div
+        className="c6"
+      >
+        <a
+          href="/case-study/1003"
+          onClick={[Function]}
+        >
+          <svg
+            height="11px"
+            version="1.1"
+            viewBox="0 0 172 11"
+            width="172px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              id="Pages"
+              stroke="none"
+              strokeWidth="1"
+            >
+              <g
+                id="Listing-Page"
+                transform="translate(-809.000000, -625.000000)"
+              >
+                <rect
+                  fill="#F5F5F5"
+                  height="1420"
+                  width="1584"
+                  x="0"
+                  y="0"
+                />
+                <g
+                  fill="#3852F7"
+                  id="Component-/-Tiles-/-Desktop-/-4:3-"
+                  transform="translate(808.000000, 120.000000)"
+                >
+                  <g
+                    id="CTA-/-Desktop-/-Blue-/-Secondary"
+                    transform="translate(1.000000, 504.000000)"
+                  >
+                    <text
+                      fontFamily="Arial-BoldMT, Arial"
+                      fontSize="13"
+                      fontWeight="bold"
+                      id="Secondary-Button"
+                      letterSpacing="0.189999998"
+                      linespacing="13"
+                      transform="translate(110.000000, 6.500000) rotate(-360.000000) translate(-110.000000, -6.500000) "
+                    >
+                      <tspan
+                        x="48"
+                        y="12"
+                      >
+                        VIEW CASE STUDY
+                      </tspan>
+                    </text>
+                    <g
+                      fillRule="evenodd"
+                      id="Colour/Interactive/1.-Electric-Blue"
+                      transform="translate(0.000000, 6.000000)"
+                    >
+                      <rect
+                        height="2"
+                        id="Colour/Neutral/1.-Black"
+                        width="32"
+                        x="0"
+                        y="0"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        Osko
+      </div>
+      <div
+        className="c9"
+      />
+      <div
+        className="c5"
+      >
+        Vivamus vitae elit viverra, imperdiet quam quis, fermentum justo
+      </div>
+      <div
+        className="c6"
+      >
+        <a
+          href="/case-study/1004"
+          onClick={[Function]}
+        >
+          <svg
+            height="11px"
+            version="1.1"
+            viewBox="0 0 172 11"
+            width="172px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              id="Pages"
+              stroke="none"
+              strokeWidth="1"
+            >
+              <g
+                id="Listing-Page"
+                transform="translate(-809.000000, -625.000000)"
+              >
+                <rect
+                  fill="#F5F5F5"
+                  height="1420"
+                  width="1584"
+                  x="0"
+                  y="0"
+                />
+                <g
+                  fill="#3852F7"
+                  id="Component-/-Tiles-/-Desktop-/-4:3-"
+                  transform="translate(808.000000, 120.000000)"
+                >
+                  <g
+                    id="CTA-/-Desktop-/-Blue-/-Secondary"
+                    transform="translate(1.000000, 504.000000)"
+                  >
+                    <text
+                      fontFamily="Arial-BoldMT, Arial"
+                      fontSize="13"
+                      fontWeight="bold"
+                      id="Secondary-Button"
+                      letterSpacing="0.189999998"
+                      linespacing="13"
+                      transform="translate(110.000000, 6.500000) rotate(-360.000000) translate(-110.000000, -6.500000) "
+                    >
+                      <tspan
+                        x="48"
+                        y="12"
+                      >
+                        VIEW CASE STUDY
+                      </tspan>
+                    </text>
+                    <g
+                      fillRule="evenodd"
+                      id="Colour/Interactive/1.-Electric-Blue"
+                      transform="translate(0.000000, 6.000000)"
+                    >
+                      <rect
+                        height="2"
+                        id="Colour/Neutral/1.-Black"
+                        width="32"
+                        x="0"
+                        y="0"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

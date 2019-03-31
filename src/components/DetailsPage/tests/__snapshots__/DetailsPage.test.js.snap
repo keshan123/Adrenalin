@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsPage renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 93px;
+}
+
+.c2 {
+  height: 800px;
+  margin-left: 80px;
+  margin-top: 123px;
+  overflow: scroll;
+  width: 564px;
+}
+
+.c3 {
+  -webkit-align-text: left;
+  -ms-flex-line-packalign-text: left;
+  align-text: left;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 68px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+
+@media (max-width:830px) {
+  .c1 {
+    padding: 0;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:830px) {
+  .c2 {
+    margin-left: 0;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;
