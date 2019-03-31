@@ -25,7 +25,7 @@ class DetailsPage extends Component {
   };
 
   componentDidMount() {
-    const isFound = (casestudy) => {
+    const isCaseStudyFound = (casestudy) => {
       if (casestudy.id.toString() === this.props.match.params.id) {
         this.setState({
           title: casestudy.title,
@@ -35,7 +35,7 @@ class DetailsPage extends Component {
         })
       }
     }
-    data.find(isFound)
+    data.find(isCaseStudyFound)
   };
 
   render() {
