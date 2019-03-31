@@ -39,7 +39,7 @@ class DetailsPage extends Component {
   };
 
   render() {
-    const { image, title, questions } = this.state;
+    const { image, title, questions, tag } = this.state;
     return (
       <Switch>
         <PageContainer>
@@ -48,7 +48,7 @@ class DetailsPage extends Component {
               image &&
               <DetailsTagContainer>
                 <DetailsImageTag>
-                 {this.state.tag}
+                 {tag}
                 </DetailsImageTag>
                 <DetailsImage
                   image={require(`../../assets/${image}`)}
